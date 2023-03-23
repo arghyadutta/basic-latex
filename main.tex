@@ -1,20 +1,15 @@
 % Options: `preprint`: single-column text, `reprint`: double-column text. Documentation at https://www.ctan.org/tex-archive/macros/latex/contrib/revtex
 \documentclass[preprint]{revtex4-2}
-
 % Next line sets (author year) citation style. To use [number] style, comment it out.
 \setcitestyle{authoryear,round} 
-
 % Math packages from AMS, graphicx for images, hyperref for colored links, lineno for inserting line numbers, lipsum for generating random chunks of text, setspace to set line-spacing
 \usepackage{amsmath, amsfonts, amssymb, graphicx, hyperref, lineno,lipsum,setspace}
-
 % To remove line numbers, comment out the next line 
 \linenumbers
-
 % Get more colors than default set and color links (citations, urls).
 \usepackage[dvipsnames]{xcolor} 
 \hypersetup{colorlinks=true, linkcolor=MidnightBlue, urlcolor=MidnightBlue,
             citecolor=MidnightBlue}
-
 % -------------- Title, author, affiliation, abstract -------------
 \begin{document}
 \title{Title}
@@ -28,10 +23,8 @@
 \end{abstract}
 \maketitle
 %-------------------------------------------------------------------
-
 \section{Introduction}
 \lipsum[1] \citep{batra2022Machine}
-
 %-------------------------------------------------------------------
 \bibliography{ref}
 \end{document}
