@@ -1,2 +1,1 @@
-# basic-latex
-A basic paper template.
+A simple LaTeX template for papers.
