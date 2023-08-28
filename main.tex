@@ -4,7 +4,7 @@
 \usepackage{amsmath, amsfonts, amssymb, graphicx, hyperref, lipsum, setspace, subcaption, lineno, natbib, authblk}
 
 % Reduce the margin a bit
-\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage[a4paper, total={6in, 10in}]{geometry}
 
 % To remove line numbers, comment out the next line 
 \linenumbers
@@ -19,6 +19,7 @@
 \title{Title}
 \author{Author}
 \affil{Affiliation}
+% \date{} % Uncomment to add today's date
 \maketitle
 \begin{abstract}
     \lipsum[1]
@@ -26,28 +27,37 @@
 % //////////////////////////////////////////////////////////////
 
 \section{Introduction}
+\lipsum[1] \citep{batra2022Machine}
 
-\begin{figure*}[!ht]
-    \begin{subfigure}[h]{0.4\linewidth}
+\begin{figure*}[!h]
+    \begin{subfigure}[h]{0.3\linewidth}
         \includegraphics[width=\linewidth]{example-image}
         \caption{subcaption}
     \end{subfigure}\hfill
-    \begin{subfigure}[h]{0.4\linewidth}
+    \begin{subfigure}[h]{0.3\linewidth}
         \includegraphics[width=\linewidth]{example-image}
         \caption{subcaption}
     \end{subfigure}\hfill
-    \begin{subfigure}[h]{0.4\linewidth}
+    \begin{subfigure}[h]{0.3\linewidth}
         \includegraphics[width=\linewidth]{example-image}
         \caption{subcaption}
     \end{subfigure}\hfill
-    \begin{subfigure}[h]{0.4\linewidth}
+    \begin{subfigure}[h]{0.3\linewidth}
+        \includegraphics[width=\linewidth]{example-image}
+        \caption{subcaption}
+    \end{subfigure}\hfill
+    \begin{subfigure}[h]{0.3\linewidth}
+        \includegraphics[width=\linewidth]{example-image}
+        \caption{subcaption}
+    \end{subfigure}\hfill
+    \begin{subfigure}[h]{0.3\linewidth}
         \includegraphics[width=\linewidth]{example-image}
         \caption{subcaption}
     \end{subfigure}\hfill
     \caption{Figure caption}
 \end{figure*}
 
-\lipsum \citep{batra2022Machine}
+\lipsum[1]
 
 % ////////////////////////////////////////////////////////////
 \bibliographystyle{plainnat}
